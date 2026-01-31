@@ -1,7 +1,29 @@
 @import "tailwindcss";
 
 @theme {
- --font-Saira: "Saira", sans-serif; 
- --font-Rowdies: "Rowdies", sans-serif; 
+ --font-Saira: "saira", sans-serif; 
+ --font-Rowdies: "owdies", sans-serif; 
 }
 
+.container {
+    @apply max-w-[1420px] mx-auto
+}
+
+.flex {
+    @apply flex items-center justify-between
+}
+
+.logo {
+    @apply cursor-pointer w-45
+}
+.menuli {
+    @apply text-[#1B2336] font-Saira text-[20px] font-medium mr-4  hover:text-[#2AAA94] duration-200 cursor-pointer
+}
+
+.loginBtn {
+    @apply text-[#4A4A4A] font-Saira text-[20px] font-medium border-b mr-10.25 cursor-pointer
+}
+
+.signupBtn {
+     @apply text-white font-Saira text-[20px] py-5 px-9 rounded-2xl font-medium bg-linear-to-r from-[#1042a2] to-[#8f66f4] cursor-pointer
+}
