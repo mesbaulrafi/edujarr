@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme {
+ --font-Saira: "Saira", sans-serif; 
+ --font-Rowdies: "Rowdies", sans-serif; 
+}
+
