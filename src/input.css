@@ -21,7 +21,7 @@
 }
 
 .loginBtn {
-    @apply text-[#4A4A4A] font-Saira text-[20px] font-medium border-b mr-10.25 cursor-pointer
+    @apply text-[#4A4A4A] font-Saira text-[20px] font-medium border-b mr-10.25 cursor-pointer hover:text-[#2AAA94]
 }
 
 .signupBtn {

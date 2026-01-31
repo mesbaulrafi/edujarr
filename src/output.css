@@ -283,6 +283,11 @@
   --tw-font-weight: var(--font-weight-medium);
   font-weight: var(--font-weight-medium);
   color: #4A4A4A;
+  &:hover {
+    @media (hover: hover) {
+      color: #2AAA94;
+    }
+  }
 }
 .signupBtn {
   cursor: pointer;
