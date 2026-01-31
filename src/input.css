@@ -53,6 +53,13 @@
      @apply px-7.5 py-2.5 bg-linear-to-r from-[#3023B2] to-[#7F56D9] rounded-[10px] absolute bottom-1.5 right-48 text-white text-[15px] font-Saira cursor-pointer
 }
 
+.bannerMiddleh4 {
+ @apply text-white font-Rowdies text-base
+}
+.bannerMiddlep {
+  @apply text-white font-Saira text-base pt-2
+}
+
 /* benner botom */
 
 
