@@ -178,8 +178,35 @@
   .relative {
     position: relative;
   }
+  .top-0 {
+    top: calc(var(--spacing) * 0);
+  }
+  .top-\[0\] {
+    top: 0;
+  }
+  .top-\[10px\] {
+    top: 10px;
+  }
+  .top-\[100px\] {
+    top: 100px;
+  }
   .top-\[150px\] {
     top: 150px;
+  }
+  .left-\[70px\] {
+    left: 70px;
+  }
+  .left-\[710px\] {
+    left: 710px;
+  }
+  .left-\[720px\] {
+    left: 720px;
+  }
+  .left-\[740px\] {
+    left: 740px;
+  }
+  .left-\[750px\] {
+    left: 750px;
   }
   .left-\[770px\] {
     left: 770px;
@@ -258,9 +285,6 @@
   }
   .justify-center {
     justify-content: center;
-  }
-  .gap-0 {
-    gap: calc(var(--spacing) * 0);
   }
   .gap-x-3 {
     column-gap: calc(var(--spacing) * 3);
